@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
     <Identifier Id="CR_SetPluginVersion">
-        <Name>CR_SetPluginVersion</Name>
-        <Author>MyCompany</Author>
+        <Name>SetPluginVersion for CodeRush</Name>
+        <Author>Rory Becker</Author>
         <Version>1.0</Version>
-        <Description xml:space="preserve">Empty DXCore VSIX plugin project.</Description>
+        <Description xml:space="preserve">Alters the AssemblyFileVersion, AssemblyVersion and VSIX Version Attributes to a user specified value.</Description>
         <Locale>1033</Locale>
+        <Icon>CR-Plug-in.png</Icon>
         <SupportedProducts>
             <VisualStudio Version="10.0">
                 <Edition>Pro</Edition>
